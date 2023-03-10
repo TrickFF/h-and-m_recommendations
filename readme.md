@@ -20,14 +20,14 @@
 #### Подробная [презентация по проекту](https://docs.google.com/presentation/d/1tfh8iZZZ1sbf3mtkmAQ1Iaqj4__Q3-YToo31DbVIq0A/edit?usp=sharing)
 
 ### Описание данных
-Папки:
+##### Папки:
 1. "archive" - папка под файлы данных, сюда необходимо загрузить [данные из датасета](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data), если требуется воспроизвести работу кода.
 2. "catboost_model" - содержит обученные модели для 4х возрастных групп.
 3. "rec_lib" - содержит файлы с функциями обработки данных, выдачи предсказаний и расчета метрик:
 	- "metrics.py" - метрики,
 	- "utils.py" - обрабока данных, создание фичей,
 	- "models.py" - функции выдачи предсказаний классификаторами.
-Файлы:
+##### Файлы:
 1. "1._ETL.ipynb" - сжатие данных, сохранение в формате parquet.
 2. "2._train-test_lvl1_model_top500_recs.ipynb" - получение и сохранение рекомендаций моделей 1го уровня для train-test.
 3. "3._train-test_lvl2_model_top12_recs.ipynb" - получение и сохранение рекомендаций моделей 2го уровня для train-test.
