@@ -1,5 +1,7 @@
 ## Рекомендательная система (+EDA) на основе [датасета H&M](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations)
 
+### Подробная [презентация по проекту](https://docs.google.com/presentation/d/1tfh8iZZZ1sbf3mtkmAQ1Iaqj4__Q3-YToo31DbVIq0A/edit?usp=sharing)
+
 ### Основные использованные библиотеки:
 1. Numpy 1.22.0
 2. Numba 0.56.4
@@ -16,8 +18,6 @@
 - Модель 2го уровня - 4 модели CatBoostClassifier по возрасной группе покупателей ранжирует соотвтетсвующие рекомендации модели 1го уровня и выдет top12.
 
 #### Лучшее решение по метрике MAP@12 на валидации: **0.0294**
-
-#### Подробная [презентация по проекту](https://docs.google.com/presentation/d/1tfh8iZZZ1sbf3mtkmAQ1Iaqj4__Q3-YToo31DbVIq0A/edit?usp=sharing)
 
 ### Описание данных
 ##### Папки:
