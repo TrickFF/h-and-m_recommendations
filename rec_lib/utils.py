@@ -246,7 +246,11 @@ def get_preds_result(customers_id, article_id, target, preds, filename):
 def col_convert(val):
     if type(val) is not list:
         return list(val)
-    return val    
+    return val
+
+# функция преобразования типа данных для модели LGBM
+def col_convert_int(val):
+    return int(val)    
 
 # получение N рекомендаций с использованием ансамбля моделей ALS OwnRec + user-user + iten-item
 # с проверкой вхождения категории в топ предыдущей недели
